@@ -4,7 +4,7 @@ import Card from "./Card";
 export interface CarouselItem {
   id: number;
   title: string;
-  imageUrl?: string;
+  imageUrl?:any;
   relaseDate: string;
   rating: number;
 }
